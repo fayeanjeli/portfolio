@@ -72,8 +72,10 @@ display: grid;
 	margin-right: 20em;
 text-align: center;
 }
-img {
-  border-radius: 8px;
+.skills img {
+	height: auto;
+	width: 35%;
+  border-radius: 10px;
 }
 
 .skills > div{
@@ -82,10 +84,16 @@ img {
 .expeduc {
 display: grid;
 	grid-template-columns: 50% 50%;
+	margin-bottom: 5em;
 }
 .expeduc > div{
- padding: 1em;}
+ padding: 3em;}
 
+.expeduc img {
+height: auto;
+	width: 10%;
+  border-radius: 10px;
+}
 
 .award {
 display: grid;
@@ -93,6 +101,6 @@ display: grid;
 text-align: center;
 }
 .award > div{
- padding: 1em;}
+ padding: -1em;}
 
 

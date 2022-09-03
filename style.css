@@ -63,68 +63,36 @@ display: grid;
 .photo > div{
  padding: 1em;}
 
-<!--Info-->
-.box{
-  display: grid;
-  font-family: Arial, sans-serif;
-  text-align: center;
-  background-color: #E7E4F1;
-  padding: 1em;
-  margin-bottom: 1em;
-  margin-right: 10em;
-  margin-left: 10em;
-  border-radius: 25px;
+
+.skills {
+display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+	grid-template-rows: 100%;
+	margin-left: 20em;
+	margin-right: 20em;
+text-align: center;
+}
+img {
+  border-radius: 8px;
 }
 
-.box1{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 1em;
-  grid-column-gap: 1em;
-  text-align: center;
-  font-family: Arial, sans-serif;
+.skills > div{
+ padding: 1em;}
 
+.expeduc {
+display: grid;
+	grid-template-columns: 50% 50%;
 }
+.expeduc > div{
+ padding: 1em;}
 
-.box1 > div{
-  background-color: #E7E4F1;
-  padding: 1em;
-  border-radius: 25px;
-}
 
-.box1 > div:nth-child(odd){
-  background-color: #E7E4F1;
+.award {
+display: grid;
+	grid-template-columns: 100%;
+text-align: center;
 }
-
-.box2{
-  display: grid;
-  text-align: center;
-  background-color: #E7E4F1;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 1em;
-  margin-left: 12em;
-  margin-right: 12em;
-  margin-top: 1em;
-  margin-bottom:  3em;
-  border-radius: 25px;
-}
-
-.box3{
-  display: grid;
-  font-family: Arial, sans-serif;
-  text-align: center;
-  background-color: #E7E4F1;
-  grid-template-columns: 1fr 1fr;
-  padding: 1em;
-  margin: 3em;
-  border-radius: 25px;
-}
-
-.titlebox{
-  display:  grid;
-  font-family: Arial, sans-serif;
-  text-align: center;
-  background-color: #E7E4F1;
-}
+.award > div{
+ padding: 1em;}
 
 
